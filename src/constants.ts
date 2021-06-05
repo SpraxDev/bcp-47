@@ -1,4 +1,16 @@
-export var normal = {
+export const regular = [
+  'art-lojban',
+  'cel-gaulish',
+  'no-bok',
+  'no-nyn',
+  'zh-guoyu',
+  'zh-hakka',
+  'zh-min',
+  'zh-min-nan',
+  'zh-xiang'
+];
+
+export const normal: { [key: string]: string | null } = {
   'en-gb-oed': 'en-GB-oxendict',
   'i-ami': 'ami',
   'i-bnn': 'bnn',
@@ -25,4 +37,4 @@ export var normal = {
   'zh-min': null,
   'zh-min-nan': 'nan',
   'zh-xiang': 'hsn'
-}
+};
