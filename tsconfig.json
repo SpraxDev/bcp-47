@@ -9,6 +9,6 @@
     "**/*.npm.ts"
   ],
   "include": [
-    "src/**/*.js"
+    "src/**/*.ts"
   ]
 }
